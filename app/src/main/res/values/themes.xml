@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme for Dark Mode. -->
+    <!-- Assuming this file is actually res/values-night/themes.xml based on content -->
+    <!-- If this is res/values/themes.xml (for light mode), adjust colors accordingly -->
+    <style name="Theme.Countrylistapp" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/purple_200</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/black</item>
+
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <!-- For dark themes, status bar icons are light by default -->
+        <item name="android:windowLightStatusBar" tools:targetApi="m">false</item> <!-- Explicitly set for dark theme -->
+
+        <!-- Background colors -->
+        <item name="android:colorBackground">@color/dark_grey_900</item>
+        <item name="colorSurface">@color/dark_grey_800</item>
+        <item name="colorOnBackground">@color/white</item>
+        <item name="colorOnSurface">@color/white</item>
+        <item name="colorError">@color/red_200</item>
+        <item name="colorOnError">@color/black</item>
+    </style>
+
+</resources>
+
